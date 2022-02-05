@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+<!--
+   <!DOCTYPE html>
 <html>
 <head>
   <meta charset="UTF-8">
@@ -12,8 +13,255 @@
 </head>
 
 <body>
-
-<p>All meta information goes inside the head section.</p>
-
+<header>
+  <img alt="logo" class="logo" src="python.png">
+  <button class="Header_list" onclick="" onmousemove=""></button>
+  <button class="Header_list" onclick="" onmousemove=""></button>
+  <button class="Header_list" onclick="" onmousemove=""></button>
+  <button class="Header_list" onclick="" onmousemove=""></button>
+  
+</header>
+<a href="#" class="back-to-top" >TOP</a>
 </body>
-</html>
+</html> 
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/e265b91880.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+    </style>
+    <link rel="icon" type="image/x-icon" href="Components\JKWADI_Logo.jpeg">
+    <title>JK Wadi Resort</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar-style">
+            <div class="container">
+                <div class="navbar-header">
+                  <img src="Components\JKWADI_Logo.jpeg" height="65px" width="75px">
+                </div>
+                <div>
+                    <div class="collapse navbar-collapse" id="micon">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#container third">VILLAS</a></li>
+                            <li><a href="#GALLERY">GALLERY</a></li>
+                            <li><a href="#Location">LOCATION</a></li>
+                            <li><a href="#contact-us">CONTACT US</a></li>
+                        </ul>  
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+        <div class="container first">
+
+            <h1 class="big-text">JK WADI RESORT</h1>
+            <marquee><p>Enjoy your vacation with JK WADI situated in lapse of nature at Nagaon, Alibag. </p></marquee>
+            <div style="float: left; width: 35%; margin-left: 5%;">
+              <h3 style="font-weight: bold; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; color: rgb(148, 9, 28); text-align: left; margin-left: .5cm;">AMENITIES</h3>
+              <ul class="ullist">
+                <li>Spacious Villas</li>
+                <li>Authentic Taste</li>
+                <li>Swimming Pool</li>
+                <li>Spacious Dining</li>
+                <li>Green Surroundings</li>
+                <li>5 min walk to Beach</li>
+                <li>Large in-house Parking Area</li>
+
+              </ul>
+            </div>
+            <div style="float: right; width: 50%; margin-right: 5%;">
+              <video width="100%" height="400px" src="Components\JKWADI.mp4" playsinline autoplay muted loop>
+              </video>
+            </div>
+                
+        </div>
+<!--
+        <div class="container second">
+            <div class="row">
+                <h1 class="welcome">Welcome to Zippy</h1>
+                <div class="col-sm-6">
+                    <p class="para">one scroll page text</p>
+                    <img src="IMG-20210128-WA0018.jpg" alt="umb" class="img-responsive img2">
+                    <br>
+                    <br>
+                </div>
+            </div>
+        </div>-->
+<br><br>
+        <div class="container third" >
+          <h1 class="welcome1" id="container third">VILLAS</h1>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card carding" style="width: 25rem;">
+                        <img src="Components\IMG-20211002-WA0000.jpg" class="card-img-top img3" alt="Bell" height="230px" width="280px">
+                        <div class="card-body">
+                          <h5 class="card-title">DELUXE VILLA</h5>
+                          <p class="card-text">Contains 2 Deluxe AC rooms<br>Spacious & each room can accommodate 4-6 persons</p>
+                        
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="card carding" style="width: 25rem;">
+                        <img src="Components\IMG-20210917-WA0003.jpg" class="card-img-top img3" alt="Mail" height="230px" width="280px">
+                        <div class="card-body">
+                            <h5 class="card-title">STANDARD AC VILLA</h5>
+                            <p class="card-text">Contains 2 Standard AC rooms<br>Cost-Efficient & each room can accommodate 4-6 persons</p>
+                         
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="card carding" style="width: 25rem;">
+                        <img src="Components\IMG-20210128-WA0021.jpg" class="card-img-top img3" alt="Desk" height="230px" width="280px">
+                        <div class="card-body">
+                            <h5 class="card-title">AC HUT </h5>
+                            <p class="card-text">Eco-designed single AC HUT<br> can accommodate 4 persons</p>
+                    
+                        </div>
+                      </div>
+                </div>
+               
+            </div>
+           
+        </div>
+        <a href="#contact-us" class="btn">Know More</a>
+
+        <div class="container fourth">
+            <h1 class="welcome1" id="GALLERY" a>GALLERY</h1>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+              </ol>
+          
+              <div class="carousel-inner">
+          
+                <div class="item active">
+                  <img src="Components\IMG_20181118_082844.jpg" alt="P1" style="width:100%; height: 500px;">
+                  <div class="carousel-caption">
+                    <h3>Close to Nature</h3>
+                    <p>Surrounded by coconut & beetlenut plantations, it gives a rich experience staying close to nature</p>
+                  </div>
+                </div>
+          
+                <div class="item">
+                  <img src="Components\IMG_20211231_192420_1.jpg" alt="P2" style="width:100%; height: 500px;">
+                  <div class="carousel-caption">
+                    <h3>Perfect to host Events</h3>
+                    <p>Host events from Birthdays to even small-scale Weddings (< 200 guests) </p>
+                  </div>
+                </div>
+              
+                <div class="item">
+                  <img src="Components\IMG_20200802_190739.jpg" alt="P3" style="width:100%; height: 500px;">
+                  <div class="carousel-caption">
+                    <h3>Scenic Nagaon Beach</h3>
+                    <p>Enjoy the beach just at walking distance away</p>
+                  </div>
+                </div>
+
+              </div>
+          
+              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+        </div>
+
+        <!--<div class="container fifth">
+            <div class="row">
+                <h1 class="welc">Our Plans</h1>
+                    <div class="col-sm-4">
+                        <div class="card carding" style="width: 18rem;">
+                            <div class="card-header w1">
+                              Basic PLAN
+                            </div>
+                            <ul class="list-group list-group-flush">
+                              <li class="list-group-item w2">Free</li>
+                              <li class="list-group-item w3">A second item</li>
+                              <li class="list-group-item w3">A third item</li>
+                              <li class="list-group-item w3">A Fourth item</li>
+                              <a href="#" class="btn btn-primary btn-second">Buy Now</a>
+                            </ul>
+                          </div>
+                    </div>
+    
+                    <div class="col-sm-4">
+                        <div class="card carding" style="width: 18rem;">
+                            <div class="card-header w1">
+                              Standard PLAN
+                            </div>
+                            <ul class="list-group list-group-flush">
+                              <li class="list-group-item w2">25$/Mon.</li>
+                              <li class="list-group-item w3">A second item</li>
+                              <li class="list-group-item w3">A third item</li>
+                              <li class="list-group-item w3">A Fourth item</li>
+                              <a href="#" class="btn btn-primary btn-second">Buy Now</a>
+                            </ul>
+                          </div>
+                    </div>
+    
+                    <div class="col-sm-4">
+                        <div class="card carding" style="width: 18rem;">
+                            <div class="card-header w1">
+                              PREMIUM PLAN
+                            </div>
+                            <ul class="list-group list-group-flush">
+                              <li class="list-group-item w2">60$/Mon.</li>
+                              <li class="list-group-item w3">A second item</li>
+                              <li class="list-group-item w3">A third item</li>
+                              <li class="list-group-item w3">A Fourth item</li>
+                              <a href="#" class="btn btn-primary btn-second">Buy Now</a>
+                            </ul>
+                          </div>
+                    </div>
+            </div>
+        </div>-->
+
+        <div class="container ninth" id="Location">
+          <h1 class="welcome1">LOCATION</h1>
+          <div class="contact-in">
+            <div class="contact-map">
+              <iframe width=90% height="450" style="border:0; text-align: center;" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJeZwqQ4J76DsRhyutDDB6QX0&key=AIzaSyB2l8WBjNswEai5vw5Kn-qRe5187FCaQHI"></iframe>            
+            </div>
+          </div>
+        </div>
+
+        <footer id="contact-us">
+          <div>
+            <br>
+            <a href="tel:9822302505">For more details Call us at +91 9822302505</a>
+          </div>
+            <br>
+            <div>
+              <span><a href="https://www.facebook.com/JKwadi19/" target="_blank"><img class="fab fa-facebook-square logo" src="Components\fblogo.png"> </a></span>
+              <span><a href="https://www.instagram.com/jkwadi/?hl=en" target="_blank"><img class="fab fa-instagram logo" src="Components\iglogo.jpg"> </a></span>
+              <span><a href="https://www.google.com.pk/travel/hotels/entity/ChkIh9e05YDG3qB9Gg0vZy8xMWdoczQ3ZnNiEAE" target="_blank"><img class="fab fa-google logo"src="Components\glogo.png"></a></span>
+          </div>
+        </footer>
+    
+
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>-->
+</body>
+</html
