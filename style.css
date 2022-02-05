@@ -1,0 +1,151 @@
+.logo{
+    color: rgb(0, 0, 0);
+    transition: all 1s;
+}
+
+video {
+    margin-right: 5%;
+    height: 10%;
+    display: block;
+   
+  }
+
+.btn{
+    display: block;
+	margin: auto;
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	transition: 0.5s max-width ease;
+	background-color: #0091a0;
+	max-width: 26%;
+    border-radius: 0px 0px 16px 16px ;
+}
+
+.btn:hover{
+    color: #000;
+	max-width: 36%;
+}
+    
+
+header{
+    margin-top: 0.5cm;
+    margin-bottom: 0.5cm;
+    height: 15vh;
+    background-color: lightblue;
+}
+
+.navbar-style{
+    box-shadow: 0 5px 10px #05386B ;
+}
+
+li a{
+    font-size: medium;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #05386B;
+    margin-top: 0.2cm;
+    margin-left: 20px;
+    transition: all 1s;
+}
+
+.ullist{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    position: relative;
+    display: block;
+    padding: .8em .8em .8em 2em;
+    margin: 5px;
+    background-color: #4ccfae;
+    color: rgb(31, 34, 189);
+    text-align: justify;
+    text-decoration: darkslategray;
+    text-shadow: 2mm;
+    border-radius: 1em;
+    transition: .3s ease-out;
+}
+body{
+    background-repeat: no-repeat;
+    background-image: url('Components\pexels-abdullah-ghatasheh-1631677.jpg'); 
+    background-color:rgba(65, 84, 146, 0.933);
+    background-attachment: fixed;  
+    background-size: cover;
+}
+
+.big-text{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(75, 31, 2, 0.931);
+    text-align: center;
+}
+
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    color: indigo;
+}
+
+.welcome1{
+    font-size: 30px;
+    color: #351a15;;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.card-title{
+    margin-left: 1cm;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-text{
+    margin-left: 1cm;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 14px;
+}
+
+.carousel-caption h3{
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.carousel-caption p{
+    font-weight: bolder;
+    font-size: 18px;
+    color: rgb(255, 251, 0);
+}
+
+footer span a img{
+    display: block;
+    float: right;
+    margin-left: 1cm;
+    margin-bottom: 1cm;
+    height: 40px;
+    width: 40px;
+}
+
+footer a{
+    transition: 0.5s max-width ease;
+	background-color: #0091a0;
+	max-width: 40%;
+    display: block;
+    margin: auto;
+	text-align: center;
+	text-transform: initial;
+	color: rgba(250, 213, 48, 0.808);
+    text-decoration: solid;
+    font-size: medium;
+	font-weight: bold;
+    border-radius: 0px 0px 16px 16px;
+}
