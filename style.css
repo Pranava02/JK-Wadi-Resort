@@ -69,7 +69,7 @@ li a{
 }
 body{
     background-repeat: no-repeat;
-    background-image: url('Components\pexels-abdullah-ghatasheh-1631677.jpg'); 
+    background-image: url('Components/Background.jpg'); 
     background-color:rgba(65, 84, 146, 0.933);
     background-attachment: fixed;  
     background-size: cover;
